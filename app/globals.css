@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 32 21 13; /* #E8D9C8 in HSL */
+    --foreground: 0 0 7; /* #111111 in HSL */
+    --card: 0 0 100;
+    --card-foreground: 0 0 7;
+    --popover: 0 0 100;
+    --popover-foreground: 0 0 7;
+    --primary: 0 0 7; /* ink #111111 */
+    --primary-foreground: 0 0 98;
+    --secondary: 32 21 13; /* beige */
+    --secondary-foreground: 0 0 7;
+    --muted: 32 21 13;
+    --muted-foreground: 0 0 45;
+    --accent: 28 38 52; /* accent-brown #B9835B */
+    --accent-foreground: 0 0 7;
+    --destructive: 0 84 60;
+    --destructive-foreground: 0 0 98;
+    --border: 32 21 13;
+    --input: 32 21 13;
+    --ring: 0 0 7;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-beige text-ink antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Font Faces - Satoshi/General Sans */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(185, 131, 91, 0.3);
+  color: #111111;
+}
+
+/* Focus Visible */
+:focus-visible {
+  outline: 2px solid #B9835B;
+  outline-offset: 2px;
+}
+
+/* Image Loading State */
+img[data-loading='lazy'] {
+  filter: blur(10px);
+  transition: filter 0.3s;
+}
+
+img[data-loading='loaded'] {
+  filter: blur(0);
+}
+

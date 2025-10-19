@@ -1,0 +1,46 @@
+# Product Images Directory
+
+Place your product images here or upload them to Supabase Storage.
+
+## Recommended Image Specifications
+
+### Product Images
+- **Main Image:** 1200x1200px, square aspect ratio
+- **Hover Image:** 1200x1200px, square aspect ratio
+- **Additional Images:** 1200x1200px, square aspect ratio
+- **Format:** WebP or JPEG
+- **Quality:** 80-90%
+- **File Size:** < 200KB per image (optimized)
+
+### Image Naming Convention
+```
+cleanser-main.jpg
+cleanser-hover.jpg
+cleanser-lifestyle.jpg
+moisturizer-main.jpg
+moisturizer-hover.jpg
+moisturizer-lifestyle.jpg
+```
+
+## Using Supabase Storage (Recommended)
+
+1. Create a bucket named `products` in Supabase Storage
+2. Make it public
+3. Upload images
+4. Copy public URLs
+5. Update product records in database with URLs
+
+Example URL:
+```
+https://xxxxx.supabase.co/storage/v1/object/public/products/cleanser-main.jpg
+```
+
+## Placeholder Images for Testing
+
+For testing, you can use placeholder services:
+- https://placehold.co/1200x1200/E8D9C8/111111?text=Product
+- https://via.placeholder.com/1200x1200/E8D9C8/111111?text=NOFILTR
+- Unsplash: https://source.unsplash.com/1200x1200/?skincare
+
+Remember to replace with actual product photography for production!
+
