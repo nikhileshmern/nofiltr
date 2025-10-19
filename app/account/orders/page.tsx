@@ -80,7 +80,7 @@ export default async function OrdersPage() {
             </div>
           ) : (
             <div className="text-center py-12 bg-beige rounded-2xl">
-              <p className="text-ink/60 mb-4">You haven't placed any orders yet</p>
+              <p className="text-ink/60 mb-4">You haven&apos;t placed any orders yet</p>
               <a
                 href="/shop"
                 className="text-accent-brown font-medium hover:underline"

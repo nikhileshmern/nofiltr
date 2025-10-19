@@ -36,7 +36,7 @@ export default function CheckoutPage() {
       })),
       totalPrice
     )
-  }, [])
+  }, [items, totalPrice])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()

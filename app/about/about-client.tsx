@@ -53,7 +53,7 @@ export function AboutClient() {
               <p className="leading-relaxed">
                 Founded in 2024, we set out to create a skincare brand that
                 combines clean ingredients with proven science, all wrapped in a
-                design that's as beautiful as the results you'll see.
+                design that&apos;s as beautiful as the results you&apos;ll see.
               </p>
             </motion.section>
 
@@ -68,7 +68,7 @@ export function AboutClient() {
               </h2>
               <p className="leading-relaxed">
                 <strong>Clean Beauty, Real Results.</strong> We believe you
-                shouldn't have to choose between safety and efficacy. Every
+                shouldn&apos;t have to choose between safety and efficacy. Every
                 product we create is:
               </p>
               <ul className="space-y-2 mt-4">
@@ -124,9 +124,9 @@ export function AboutClient() {
                 Our Commitment
               </h2>
               <p className="leading-relaxed">
-                We're not just selling skincare—we're building a community of
+                We&apos;re not just selling skincare—we&apos;re building a community of
                 people who believe in authenticity. Every product, every
-                ingredient, every decision is made with your skin's health in
+                ingredient, every decision is made with your skin&apos;s health in
                 mind.
               </p>
               <p className="leading-relaxed">
@@ -145,7 +145,7 @@ export function AboutClient() {
                 Your Skin, Your Story.
               </p>
               <p className="text-ink/70">
-                Join thousands who've already discovered the NOFILTR. difference.
+                Join thousands who&apos;ve already discovered the NOFILTR. difference.
               </p>
             </motion.div>
           </div>

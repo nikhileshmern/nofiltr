@@ -82,7 +82,7 @@ const productsData = [
     slug: 'face-cleanser',
     category: 'Cleanser',
     shortDescription: 'Gentle yet effective daily cleanser for all skin types',
-    description: 'Our Face Cleanser is formulated to gently remove impurities, makeup, and excess oil without stripping your skin\'s natural moisture barrier. Suitable for all skin types, including sensitive skin.',
+    description: 'Our Face Cleanser is formulated to gently remove impurities, makeup, and excess oil without stripping your skin&apos;s natural moisture barrier. Suitable for all skin types, including sensitive skin.',
     price: 999,
     image: '/products/face-cleanser.png',
     type: 'product',
@@ -579,7 +579,7 @@ export default function ProductPage({ params }: Props) {
               {/* What's Included (for kits) */}
               {product.includes && (
                 <div className="bg-white border border-ink/10 rounded-2xl p-6 space-y-3">
-                  <h3 className="font-semibold text-lg text-ink">What's Included:</h3>
+                  <h3 className="font-semibold text-lg text-ink">What&apos;s Included:</h3>
                   <ul className="space-y-2">
                     {product.includes.map((item, index) => (
                       <li key={index} className="flex items-start gap-2">

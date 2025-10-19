@@ -61,7 +61,7 @@ export function Reviews() {
                   />
                 ))}
               </div>
-              <p className="text-ink mb-6 leading-relaxed">"{review.text}"</p>
+              <p className="text-ink mb-6 leading-relaxed">&ldquo;{review.text}&rdquo;</p>
               <div className="border-t border-ink/10 pt-4">
                 <p className="font-semibold text-ink">{review.name}</p>
                 <p className="text-sm text-ink/60">{review.product}</p>
